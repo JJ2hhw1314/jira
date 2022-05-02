@@ -1,5 +1,5 @@
 import { ReportHandler } from 'web-vitals';
-
+//做埋点上报
 const reportWebVitals = (onPerfEntry?: ReportHandler) => {
   if (onPerfEntry && onPerfEntry instanceof Function) {
     import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
